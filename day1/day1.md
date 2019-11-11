@@ -5,3 +5,5 @@
 - git commit -m (수정내용 확정하기)
 - git push (Romote 저장소로 보내기)
 - git pull (Remote 저장소의 내용을 Local 저장소로 가져오기)
+- git commit --amend (마지막 커밋 수정하기)
+    - git config --global core.editor "code --wait"
