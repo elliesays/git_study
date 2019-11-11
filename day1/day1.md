@@ -1,22 +1,46 @@
-# Git 명령어
+# Day1 학습내용
+##개발환경 설정
+- 웹 브라우저 설치 : [Chrome] (https://www.google.com/intl/ko/chrome/)
+- 에디터 설치: [VS CODE] (https://code.visualstudio.com/download)
+> VS Code에서 보기 메뉴에 설정이라는 메뉴를 선택한 후 fontsize, tabsize, minimap에 대한 설정 값을 변경한다.
+- git 설치 : [Git](https://git-scm.com/downloads)
+- github 가입하기 : [Github](https://github.com/)
 
+## Git 명령어
+Git을 설치하고 나서 가장 먼저 해야 하는 것은 사용자 이름과 이메일 주소를 설정하는 것이다. Git은 커밋할 때마다 이 정보를 사용한다. 한 번 커밋한 후에는 정보를 변경할 수 없다. 그리고 git으로 사용할 기본 에디터를 Visual Code로 변경하는 것이 좋다.
+> $ git config --global user.name "elliesays" 
+
+> $ git config --global user.email yunjinsays@gmail.com
+
+> $ git config --global core.editor "code --wait"
 - git status(상태 확인하기)
 - git add (스테이지에 추가하기)
 - git commit -m (수정내용 확정하기)
 - git push (Romote 저장소로 보내기)
 - git pull (Remote 저장소의 내용을 Local 저장소로 가져오기)
 - git commit --amend (마지막 커밋 수정하기)
-    - git config --global core.editor "code --wait"
 
-# Git Branch
+### Git Branch
 
-지금까지 Git의 기본적인 사용법에 대해 알아 보았습니다. 발전 편에서는 브랜치의 사용법에 대해 좀 더 자세히 알아보도록 하겠습니다.
-
-소프트웨어를 개발할 때에 개발자들은 동일한 소스코드를 함께 공유하고 다루게 됩니다. 동일한 소스코드 위에서 어떤 개발자는 버그를 수정하기도 하고 또 다른 개발자는 새로운 기능을 만들어 내기도 하죠. 이와 같이 여러 사람이 동일한 소스코드를 기반으로 서로 다른 작업을 할 때에는 각각 서로 다른 버전의 코드가 만들어 질 수 밖에 없습니다.
-
-이럴 때, 여러 개발자들이 동시에 다양한 작업을 할 수 있게 만들어 주는 기능이 바로 '브랜치(Branch)' 입니다. 각자 독립적인 작업 영역(저장소) 안에서 마음대로 소스코드를 변경할 수 있지요. 이렇게 분리된 작업 영역에서 변경된 내용은 나중에 원래의 버전과 비교해서 하나의 새로운 버전으로 만들어 낼 수 있습니다.
+여러 개발자들이 동시에 다양한 작업을 할 수 있게 만들어 주는 기능이 바로 '브랜치(Branch)' 입니다. 각자 독립적인 작업 영역(저장소) 안에서 마음대로 소스코드를 변경할 수 있습니다. 이렇게 분리된 작업 영역에서 변경된 내용은 나중에 원래의 버전과 비교해서 하나의 새로운 버전으로 만들어 낼 수 있습니다.
 
 - git branch (브랜치 목록 보기)
 - git branch [브랜치 이름] (브랜치 생성)
 - git checkout [브랜치 이름] (브랜치 변경)
 - git switch [브랜드 이름] (브랜치 변경 - 2.23 버전 이상)
+---------------------------------------
+## 마크다운 (Markdown)
+![마크다운](../asset/mark.png)
+HTML 또는 CSS **코드**를 삽입할 때
+```html
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>첫번째 HTML 문서</title>
+</head>
+<body>
+  본문 영역
+</body>
+</html>
+```
