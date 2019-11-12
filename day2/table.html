@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>테이블 요소</title>
+</head>
+<body>
+  <h1>테이블</h1>
+  <table border="1">
+  <caption>2018년 수출입 자료</caption>
+  <tr>
+   <th rowspan="2">구분</th>
+   <th colspan="2" id="first">상반기</th>
+   <th colspan="2" id="second">하반기</th>
+  </tr>
+  <tr>
+   <th id="firstIncome">수입</th>
+   <th id="firstExport">수출</th>
+   <th id="secondIncome">수입</th>
+   <th id="secondExport">수출</th>
+  </tr>
+  <tr>
+    <th id="america">미국</th>
+    <td headers="america first firstIncome">100</td>    
+    <td headers="america first firstExport">200</td>    
+    <td headers="america second secondIncome">150</td>    
+    <td headers="america second secondExport">250</td>
+  </tr>
+  <tr>
+      <th id="china">중국</th>
+      <td headers="china first firstIncome">70</td>    
+      <td headers="china first firstExport">90</td>    
+      <td headers="china second secondIncome">110</td>    
+      <td headers="china second secondExport">130</td>
+    </tr>
+  </table>
+</body>
+</html>
