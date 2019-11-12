@@ -38,3 +38,29 @@ HTML a 요소 (앵커 요소)는 다른 페이지, 파일, 같은 페이지의 �
 - ol 순차 목록 요소  [MDN ol요소](https://developer.mozilla.org/ko/docs/Web/HTML/Element/ol)
 - li 목록 항목 요소 [MDN li요소](https://developer.mozilla.org/ko/docs/Web/HTML/Element/li)
 - a 하이퍼링크 요소 [MDN a요소](https://developer.mozilla.org/ko/docs/Web/HTML/Element/a)
+
+## 섹션 및 구조관련 요소
+
+### [section 요소](https://developer.mozilla.org/ko/docs/Web/HTML/Element/section)
+
+HTML Section 요소 (section) 는 문서의 일반적인 구획을 나타냅니다. 즉, (전형적으로 제목을 가지고 있는) 컨텐츠의 주제 그룹을 말합니다. 각 section은 식별되어야하며, 일반적으로 (h1-h6) 요소들을 자식으로 가집니다.
+
+### [article 요소](https://developer.mozilla.org/ko/docs/Web/HTML/Element/article)
+
+HTML article 요소는 문서, 페이지, 애플리케이션,  또는 사이트 안에 독립적으로 구분되거나 재사용 가능한 영역(예: 신디케이션)을 구성할 수 있습니다. 포럼의 글, 매거진/신문의 기사, 블로그 글 등이 여기에 포함됩니다.
+
+### [nav 요소](https://developer.mozilla.org/ko/docs/Web/HTML/Element/nav)
+
+HTML nav 요소는 현재 페이지 안 또는 다른 페이지로 가는 링크를 보여주는 페이지의 한 구획을 말합니다. 주로 태그 안에 메뉴, 목차, 색인 등이 들어갑니다.
+
+### [main 요소](https://developer.mozilla.org/ko/docs/Web/HTML/Element/main)
+
+HTML main 요소는 문서나 앱 body의 주요 콘텐츠를 나타냅니다. 주요 콘텐츠 구역은 문서의 핵심 주제나 애플리케이션의 핵심 기능성에 대해 부연, 또는 직접적으로 연관된 콘텐츠들로 이루어집니다.
+
+### [header 요소](https://developer.mozilla.org/ko/docs/Web/HTML/Element/header)
+
+HTML header 요소는 소개나 탐색을 돕는것의 그룹을 나타냅니다. 이것은 일부 제목 요소들을 포함할수도 있지만, 로고나 구획의 제목, 탐색 폼 과 같은것들이 포함수도 있습니다.
+
+### [footer 요소](https://developer.mozilla.org/ko/docs/Web/HTML/Element/footer)
+
+HTML footer 요소는 가장 가까운 구획화 콘텐츠나 구획화 루트의 푸터를 나타냅니다. 푸터는 일반적으로 작성자 구획,저작권 데이터,관련된 문서의 링크에 대한 정보를 포함합니다.
