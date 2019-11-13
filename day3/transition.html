@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>트랜지션 애니메이션</title>
+  <style>
+  .box{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    line-height: 35px;
+    text-align: center;
+    background-color: yellow;
+    font-weight: bold;
+    border: 5px solid #000;
+    transition: all 1000ms;
+  }
+  .box:hover{
+    background-color:pink;
+    border-radius: 50%;
+    transform: rotate(2turn);
+  }
+  .box span{
+    display: block;
+  }
+  </style>
+</head>
+<body>
+  <h1>트랜지션 효과</h1>
+  <div class="box">
+    <span>트랜지션</span>
+    <span>애니메이션</span>
+</div>
+</body>
+</html>
