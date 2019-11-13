@@ -92,3 +92,14 @@ relative가 지정된 요소 역시 document의 일반적인 흐름(normal flow)
 
 - position: sticky   
 요소가 일반적인 문서(document) 흐름에 따라 배치됩니다. 그런 다음 top, right, bottom, left 값을 기준으로 플로우 루트(flow root) 및 해당 요소를 포함하는 블록(containing block)에 대한 상대적(relative) 위치에 자리하게 됩니다. 이 오프셋은 다른 요소들에 영향을 주지 않습니다. 이 값은 항상 새로운  stacking context를 생성합니다. 테이블과 관련된 요소들에 미치는 sticky의 효과는 relative와 동일합니다. 브라우저 사양에 따라 overflow : hidden 또는 auto 요소 내에서 작동하지 않을 수 있습니다.
+
+
+## [트랜지션(Transition)](https://developer.mozilla.org/ko/docs/Web/CSS/transition)
+
+transition CSS 속성은 transition-property, transition-duration, transition-timing-function 과 transition-delay를 위한 단축 속성입니다. 이 속성으로 엘리먼트의 두 가지 상태 사이에 변화를 줄 수 있습니다. 엘리먼트의 각 상태는 가상 클래스 를 사용해 정의된 :hover 이나 :active 또는 자바스크립트를 사용해 동적으로 만들어진 것들입니다.
+
+-transition-property
+-transition-duration
+-transition-timing-function
+-transition-delay
+-transition
