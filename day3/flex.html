@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>모던 레이아웃 - 플렉스</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: skyblue;
+    }
+    .container{
+      background-color: pink;
+      width: 600px;
+      height: 450px;
+      /* padding: 1em 0; */
+      border: 1px solid green;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      align-content: space-evenly;
+    }
+    .item{
+      background-color: yellow;
+      width: 250px;
+      height: 150px;
+      border: 1px solid blue;
+      /* margin: 1em 0; */
+    }
+    .item1{
+      flex-shrink: 1;
+    }
+    .item2{
+      flex-shrink: 2;
+    }
+    .item3{
+      flex-shrink: 0;
+    }
+    .item4{
+      flex-shrink: 1;
+    }
+  </style>
+</head>
+<body>
+  <h1>플렉스 박스</h1>
+  <div class="container">
+    <div class="item item1">박스1</div>
+    <div class="item item2">박스2</div>
+    <div class="item item3">박스3</div>
+    <div class="item item4">박스4</div>
+  </div>
+</body>
+</html>
