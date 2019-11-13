@@ -31,3 +31,15 @@ inherit CSS 값은 요소가 부모 요소로부터 속성(property)의 계산�
 | .note    | 0 | 0 |0 |1|
 | p.note   | 0 | 0 |0 |1|
 | #outer a | 0 | 0 |0 |1|
+
+## [박스모델(Box Model)](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Box_Model)
+
+CSS Basic Box Model은 각 요소에 대해 시각적 서식 모델에 따라 생성하고 배치하는 사각형 박스(안팎 여백 포함)를 위한 CSS 모듈입니다.
+
+- [display](https://developer.mozilla.org/ko/docs/Web/CSS/display)
+- [box-sizing](https://developer.mozilla.org/ko/docs/Web/CSS/box-sizing)
+- [width](https://developer.mozilla.org/ko/docs/Web/CSS/width)
+- [height](https://developer.mozilla.org/ko/docs/Web/CSS/height)
+- [margin](https://developer.mozilla.org/ko/docs/Web/CSS/margin)
+- [border](https://developer.mozilla.org/ko/docs/Web/CSS/border)
+- [padding](https://developer.mozilla.org/ko/docs/Web/CSS/padding)
