@@ -43,3 +43,16 @@ CSS Basic Box Model은 각 요소에 대해 시각적 서식 모델에 따라 �
 - [margin](https://developer.mozilla.org/ko/docs/Web/CSS/margin)
 - [border](https://developer.mozilla.org/ko/docs/Web/CSS/border)
 - [padding](https://developer.mozilla.org/ko/docs/Web/CSS/padding)
+
+## [플렉스 레이아웃](https://developer.mozilla.org/en-US/docs/Glossary/Flex)
+
+flex는 CSS display속성에 새롭게 추가 된 값입니다. inline-flex동시에 사용하는 것으로, Element (요소)에 Flex 컨테이너 가 적용됩니다. 또한 그 Element (요소)의 자식 Element (요소) 각각은 Flex 항목 이 적용됩니다. flex 항목이 적용 된 Element (요소)는 flex layout을 구성하고 CSS Flexible Box Layout Module에 정의되어있는 속성의 모든이 적용되는 것입니다.
+
+flex속성은 flexbox 속성을 줄여서 나타낸 속성입니다. flex-grow나 flex-shrink, flex-basis 등이 있습니다.
+
+flex 내용은 CSS Grid Layout의 flexible length 에서 확인할 수 있습니다.
+
+참고 사이트 [Flex CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+![Flex Container](./img/01-container.svg)     
+![Flex Items](./img/02-items.svg)
